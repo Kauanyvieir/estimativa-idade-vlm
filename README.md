@@ -1,7 +1,9 @@
 
-# O Custo da Performance: Modelos de Visão e Linguagem para Estimativa de Idade sob Oclusão Facial (Paper ID 63)
+# O Custo da Performance: Modelos de Visão e Linguagem para Estimativa de Idade sob Oclusão Facial
 
-Repositório destinado ao armazenamento de experimentos, códigos, prompts, métricas e análises relacionados à estimativa de idade utilizando modelos Vision-Language (VLMs) em tarefas de Visual Question Answering (VQA).Repositório destinado ao armazenamento de experimentos, códigos, prompts, métricas e análises relacionados à estimativa de idade utilizando modelos Vision-Language (VLMs) em tarefas de Visual Question Answering (VQA), desenvolvido como parte de um trabalho submetido para a 2ª Edição da Conferência Latino-Americana de Ética em Inteligência Artificial.
+Repositório oficial do artigo "_O Custo da Performance: Modelos de Visão e Linguagem para Estimativa de Idade sob Oclusão Facial_" publicado na 2ª Edição da Conferência Latino-Americana de Ética em Inteligência Artificial (LAAI-Ethics 2026). 
+
+Este repositório armazena experimentos, códigos, prompts, métricas e análises relacionados à estimativa de idade utilizando modelos Vision-Language (VLMs) em tarefas de Visual Question Answering (VQA).
 
 ---
 
@@ -17,7 +19,7 @@ O projeto avalia:
 
 ---
 
-# Estrutura do Repositório
+## Estrutura do Repositório
 
 ```text
 estimativa-idade-vlm/
@@ -28,7 +30,7 @@ estimativa-idade-vlm/
 
 ---
 
-# Pipeline Experimental
+## Pipeline Experimental
 
 ```text
 Imagem → Prompt → Modelo VLM → Resposta textual → Pós-processamento → Avaliação
@@ -38,7 +40,7 @@ Os modelos recebem imagens e perguntas relacionadas à idade, produzindo respost
 
 ---
 
-# Prompts Avaliados
+## Prompts Avaliados
 
 O projeto avalia diferentes níveis de granularidade:
 - classificação binária;
@@ -47,7 +49,7 @@ O projeto avalia diferentes níveis de granularidade:
 
 ---
 
-# Principais Achados
+## Principais Achados
 
 - Prompts mais objetivos apresentaram melhor desempenho.
 - VLMs obtiveram resultados superiores em cenários com oclusão facial.
@@ -56,4 +58,7 @@ O projeto avalia diferentes níveis de granularidade:
 - Modelos multimodais apresentaram maior custo computacional.
 
 ---
+## Como citar o trabalho
+
+(Em breve)
 
